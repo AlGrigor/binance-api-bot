@@ -1,4 +1,3 @@
-import { apiKey, apiSecret } from "./src/assets/keys";
+import { client } from "./src/init";
 
-console.log(apiKey);
-console.log(apiSecret);
+console.log(client);
